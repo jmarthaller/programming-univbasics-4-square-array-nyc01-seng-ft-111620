@@ -3,4 +3,5 @@ def square_array(array)
   while array.length do 
     array[counter] = array[counter]**2
   end
+  return array
 end
